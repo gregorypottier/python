@@ -1,3 +1,5 @@
+# Strings - mergetools
+
 def removeduplicate(string):
     result = ""
     seen = set()
