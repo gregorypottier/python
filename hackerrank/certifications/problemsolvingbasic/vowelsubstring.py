@@ -44,8 +44,7 @@ if __name__ == '__main__':
     k = int(input().strip())
 
     result = findSubstring(s, k)
-    if result == None:
-        result = "greg"
+    
     fptr.write(result + '\n')
 
     fptr.close()
