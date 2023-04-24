@@ -1,7 +1,7 @@
 # Itertools - maximize it
 from itertools import product
 
-k, mod = map(int, input().split())
+k, mod = map(int, input().split(" "))
 
 ll = []
 
