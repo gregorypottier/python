@@ -10,5 +10,5 @@ for i in range(k):
     ll.append(sl) # append squared values to ll
 # cartesian product of all the sublists and computing the remainder of their sum when divided by m
 allProducts = list(product(*ll))
-result = list(sum(x) % mod for x in allProducts)
-print(max(result))
+results = list(sum(x) % mod for x in allProducts)
+print(max(results))
